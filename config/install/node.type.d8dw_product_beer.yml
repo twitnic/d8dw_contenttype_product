@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - d8dw_product_beer
+name: 'Book Detail'
+type: d8dw_product_beer
+description: 'Content type that can be used to add <em>Beer information</em> page.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

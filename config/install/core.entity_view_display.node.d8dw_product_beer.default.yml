@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+    config:
+        - field.field.node.d8dw_product_beer.body
+        - node.type.d8dw_product_beer
+    module:
+        - text
+        - user
+id: node.d8dw_product_beer.default
+targetEntityType: node
+bundle: d8dw_product_beer
+mode: default
+content:
+    body:
+        label: hidden
+        type: text_default
+        weight: 100
+        settings: {  }
+        third_party_settings: {  }
+    links:
+        weight: 101
+hidden: {  }

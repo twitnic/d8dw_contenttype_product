@@ -1,0 +1,6 @@
+name: Product (Beer) Detail
+type: module
+description: 'Adds Custom "Beer" content type.'
+core: 8.x
+dependencies:
+  - node
