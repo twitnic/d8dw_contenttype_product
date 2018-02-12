@@ -1,5 +1,5 @@
 {
-  "name": "twitnic/d8dw_product_beer",
+  "name": "twitnic/d8dw_contenttype_product",
   "license": "MIT",
   "keywords": [
     "drupal",
@@ -9,11 +9,11 @@
   "type": "drupal-module",
 
   "description": "Drupal 8 Custom Content Type",
-  "homepage": "https://github.com/twitnic/d8dw_product_beer",
+  "homepage": "https://github.com/twitnic/d8dw_contenttype_product",
   "minimum-stability": "dev",
   "support": {
-    "issues": "https://github.com/twitnic/d8dw_product_beer/issues",
-    "source": "https://github.com/twitnic/d8dw_product_beer"
+    "issues": "https://github.com/twitnic/d8dw_contenttype_product/issues",
+    "source": "https://github.com/twitnic/d8dw_contenttype_product"
   },
   "require": {
   }
