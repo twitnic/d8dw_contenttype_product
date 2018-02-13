@@ -2,9 +2,10 @@ name: 'Contenttyp: Produkt Bier'
 type: module
 description: 'Contentyp für Produkte (Biere)'
 core: 8.x
+package: Datenwerk
 dependencies:
   - node
-version: 8.x-1.0.2'
+version: 8.x-1.0.3'
 core: 8.x
 project: d8dw_contenttype_product
 datestamp: 1507604048
