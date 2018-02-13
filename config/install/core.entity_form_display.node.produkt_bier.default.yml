@@ -55,14 +55,7 @@ content:
     settings: {  }
     third_party_settings: {  }
 
-  field_prod_eigenschaft_4_beschr:
-    weight: 142
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-    type: string_textfield
-    region: content
+
 
   field_prod_backimg_1:
     weight: 149
@@ -215,6 +208,14 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: options_select
+    region: content
+  field_prod_eigenschaft_4_beschr:
+    weight: 142
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
     region: content
   field_prod_eigenschaft_5:
     weight: 134

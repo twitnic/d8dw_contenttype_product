@@ -5,7 +5,7 @@ core: 8.x
 package: Datenwerk
 dependencies:
   - node
-version: 8.x-1.0.7'
+version: 8.x-1.0.8'
 core: 8.x
 project: d8dw_contenttype_product
 datestamp: 1507604048
