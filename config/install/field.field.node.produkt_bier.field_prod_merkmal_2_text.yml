@@ -9,7 +9,7 @@ field_name: field_prod_merkmal_2_text
 entity_type: node
 bundle: produkt_bier
 label: 'Merkmal 2 Text'
-description: ''
+description: 'Malze im Bier'
 required: false
 translatable: false
 default_value: {  }

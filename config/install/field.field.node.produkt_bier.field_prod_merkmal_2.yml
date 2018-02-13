@@ -9,7 +9,7 @@ field_name: field_prod_merkmal_2
 entity_type: node
 bundle: produkt_bier
 label: 'Merkmal 2'
-description: ''
+description: 'Bestes Malz'
 required: false
 translatable: false
 default_value: {  }

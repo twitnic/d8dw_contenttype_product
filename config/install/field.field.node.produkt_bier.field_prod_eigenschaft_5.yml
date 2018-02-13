@@ -2,19 +2,17 @@ langcode: de
 status: true
 dependencies:
   config:
-    - field.storage.node.field_prod_zutaten
+    - field.storage.node.field_prod_eigenschaft_5
     - node.type.produkt_bier
-  module:
-    - text
-id: node.produkt_bier.field_prod_zutaten
-field_name: field_prod_zutaten
+id: node.produkt_bier.field_prod_eigenschaft_5
+field_name: field_prod_eigenschaft_5
 entity_type: node
 bundle: produkt_bier
-label: Zutaten
-description: ''
+label: 'Eigenschaft 5'
+description: 'Kalorien'
 required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: text_long
+field_type: string

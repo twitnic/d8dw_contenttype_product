@@ -2,7 +2,6 @@ langcode: de
 status: true
 dependencies:
   config:
-    - field.field.node.produkt_bier.field_prod_eigenschaft_3
     - field.field.node.produkt_bier.field_prod_backimg_3
     - field.field.node.produkt_bier.field_prod_backimg_1
     - field.field.node.produkt_bier.field_prod_backimg_2
@@ -18,11 +17,15 @@ dependencies:
     - field.field.node.produkt_bier.field_prod_eigenschaft_2
     - field.field.node.produkt_bier.field_prod_eigenschaft_2_beschr
     - field.field.node.produkt_bier.field_prod_eigenschaft_2_wertung
+    - field.field.node.produkt_bier.field_prod_eigenschaft_3
     - field.field.node.produkt_bier.field_prod_eigenschaft_3_beschr
     - field.field.node.produkt_bier.field_prod_eigenschaft_3_wertung
     - field.field.node.produkt_bier.field_prod_eigenschaft_4
     - field.field.node.produkt_bier.field_prod_eigenschaft_4_wertung
     - field.field.node.produkt_bier.field_prod_eigenschaft_4_beschr
+    - field.field.node.produkt_bier.field_prod_eigenschaft_5
+    - field.field.node.produkt_bier.field_prod_eigenschaft_5_wertung
+    - field.field.node.produkt_bier.field_prod_eigenschaft_5_beschr
     - field.field.node.produkt_bier.field_prod_laenderzuordnung
     - field.field.node.produkt_bier.field_prod_merkmal_1
     - field.field.node.produkt_bier.field_prod_merkmal_1_text
@@ -32,7 +35,7 @@ dependencies:
     - field.field.node.produkt_bier.field_prod_merkmal_3_text
     - field.field.node.produkt_bier.field_prod_merkmal_4
     - field.field.node.produkt_bier.field_prod_merkmal_4_text
-    - field.field.node.produkt_bier.field_prod_zutaten
+    - field.field.node.produkt_bier.field_prod_naehrwert
     - node.type.produkt_bier
   module:
     - image
@@ -44,22 +47,6 @@ targetEntityType: node
 bundle: produkt_bier
 mode: default
 content:
-  field_prod_eigenschaft_3:
-    weight: 117
-    label: above
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-    type: string
-    region: content
-  field_prod_eigenschaft_4_beschr:
-    weight: 122
-    label: above
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-    type: string
-    region: content
   field_prod_backimg_3:
     weight: 131
     label: above
@@ -183,6 +170,14 @@ content:
     third_party_settings: {  }
     type: list_default
     region: content
+  field_prod_eigenschaft_3:
+    weight: 117
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
   field_prod_eigenschaft_3_beschr:
     weight: 119
     label: above
@@ -212,6 +207,37 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: list_default
+    region: content
+  field_prod_eigenschaft_4_beschr:
+    weight: 122
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_prod_eigenschaft_5:
+    weight: 120
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_prod_eigenschaft_5_wertung:
+    weight: 121
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_prod_eigenschaft_5_beschr:
+    weight: 122
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
     region: content
   field_prod_laenderzuordnung:
     weight: 123
@@ -280,7 +306,7 @@ content:
     third_party_settings: {  }
     type: basic_string
     region: content
-  field_prod_zutaten:
+  field_prod_naehrwert:
     weight: 132
     label: above
     settings: {  }

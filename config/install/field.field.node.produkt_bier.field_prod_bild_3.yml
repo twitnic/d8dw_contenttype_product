@@ -11,7 +11,7 @@ field_name: field_prod_bild_3
 entity_type: node
 bundle: produkt_bier
 label: 'Produktbild 3'
-description: ''
+description: 'Bild in der Kachel (desktop)'
 required: false
 translatable: false
 default_value: {  }

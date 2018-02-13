@@ -11,7 +11,7 @@ field_name: field_prod_eigenschaft_2_wertung
 entity_type: node
 bundle: produkt_bier
 label: 'Eigenschaft 2 Wertung'
-description: ''
+description: 'Bitterkeit'
 required: false
 translatable: false
 default_value:

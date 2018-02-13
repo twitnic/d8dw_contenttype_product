@@ -9,7 +9,7 @@ field_name: field_prod_eigenschaft_4_beschr
 entity_type: node
 bundle: produkt_bier
 label: 'Eigenschaft 4 Beschreibung'
-description: ''
+description: 'hell-goldgelb'
 required: false
 translatable: false
 default_value: {  }

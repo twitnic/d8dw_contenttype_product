@@ -23,6 +23,9 @@ dependencies:
     - field.field.node.produkt_bier.field_prod_eigenschaft_4
     - field.field.node.produkt_bier.field_prod_eigenschaft_4_beschr
     - field.field.node.produkt_bier.field_prod_eigenschaft_4_wertung
+    - field.field.node.produkt_bier.field_prod_eigenschaft_5
+    - field.field.node.produkt_bier.field_prod_eigenschaft_5_beschr
+    - field.field.node.produkt_bier.field_prod_eigenschaft_5_wertung
     - field.field.node.produkt_bier.field_prod_laenderzuordnung
     - field.field.node.produkt_bier.field_prod_merkmal_1
     - field.field.node.produkt_bier.field_prod_merkmal_1_text
@@ -32,7 +35,7 @@ dependencies:
     - field.field.node.produkt_bier.field_prod_merkmal_3_text
     - field.field.node.produkt_bier.field_prod_merkmal_4
     - field.field.node.produkt_bier.field_prod_merkmal_4_text
-    - field.field.node.produkt_bier.field_prod_zutaten
+    - field.field.node.produkt_bier.field_prod_naehrwert
     - image.style.thumbnail
     - node.type.produkt_bier
   module:
@@ -213,6 +216,28 @@ content:
     third_party_settings: {  }
     type: options_select
     region: content
+  field_prod_eigenschaft_5:
+    weight: 134
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_prod_eigenschaft_5_beschr:
+    weight: 136
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_prod_eigenschaft_5_wertung:
+    weight: 135
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
   field_prod_laenderzuordnung:
     weight: 143
     settings: {  }
@@ -283,7 +308,7 @@ content:
     third_party_settings: {  }
     type: string_textarea
     region: content
-  field_prod_zutaten:
+  field_prod_naehrwert:
     weight: 152
     settings:
       rows: 5

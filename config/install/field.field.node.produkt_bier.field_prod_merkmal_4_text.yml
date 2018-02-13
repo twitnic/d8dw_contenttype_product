@@ -9,7 +9,7 @@ field_name: field_prod_merkmal_4_text
 entity_type: node
 bundle: produkt_bier
 label: 'Merkmal 4 Text'
-description: ''
+description: 'Empfehlungstext'
 required: false
 translatable: false
 default_value: {  }

@@ -2,14 +2,14 @@ langcode: de
 status: true
 dependencies:
   config:
-    - field.storage.node.field_prod_merkmal_1
+    - field.storage.node.field_prod_eigenschaft_5_beschr
     - node.type.produkt_bier
-id: node.produkt_bier.field_prod_merkmal_1
-field_name: field_prod_merkmal_1
+id: node.produkt_bier.field_prod_eigenschaft_5_beschr
+field_name: field_prod_eigenschaft_5_beschr
 entity_type: node
 bundle: produkt_bier
-label: 'Merkmal 1'
-description: 'Erlesener Hopfen'
+label: 'Eigenschaft 5 Beschreibung'
+description: '20 kcal / 100ml'
 required: false
 translatable: false
 default_value: {  }

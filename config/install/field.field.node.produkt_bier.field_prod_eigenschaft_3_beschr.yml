@@ -9,7 +9,7 @@ field_name: field_prod_eigenschaft_3_beschr
 entity_type: node
 bundle: produkt_bier
 label: 'Eigenschaft 3 Beschreibung'
-description: ''
+description: 'mild'
 required: false
 translatable: false
 default_value: {  }

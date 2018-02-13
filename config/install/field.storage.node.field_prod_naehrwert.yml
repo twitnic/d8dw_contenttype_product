@@ -4,8 +4,8 @@ dependencies:
   module:
     - node
     - text
-id: node.field_prod_zutaten
-field_name: field_prod_zutaten
+id: node.field_prod_naehrwert
+field_name: field_prod_naehrwert
 entity_type: node
 type: text_long
 settings: {  }

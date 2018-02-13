@@ -11,7 +11,7 @@ field_name: field_prod_laenderzuordnung
 entity_type: node
 bundle: produkt_bier
 label: Länderzuordnung
-description: ''
+description: 'Füer Bierkarussell nötig'
 required: false
 translatable: false
 default_value:

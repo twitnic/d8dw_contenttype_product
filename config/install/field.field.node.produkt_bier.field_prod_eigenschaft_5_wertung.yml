@@ -2,15 +2,15 @@ langcode: de
 status: true
 dependencies:
   config:
-    - field.storage.node.field_prod_eigenschaft_1_wertung
+    - field.storage.node.field_prod_eigenschaft_5_wertung
     - node.type.produkt_bier
   module:
     - options
-id: node.produkt_bier.field_prod_eigenschaft_1_wertung
-field_name: field_prod_eigenschaft_1_wertung
+id: node.produkt_bier.field_prod_eigenschaft_5_wertung
+field_name: field_prod_eigenschaft_5_wertung
 entity_type: node
 bundle: produkt_bier
-label: 'Eigenschaft 1 Wertung'
+label: 'Eigenschaft 5 Wertung'
 description: ''
 required: false
 translatable: false
@@ -19,4 +19,4 @@ default_value:
     value: 0
 default_value_callback: ''
 settings: {  }
-field_type: list_string
+field_type: list_integer

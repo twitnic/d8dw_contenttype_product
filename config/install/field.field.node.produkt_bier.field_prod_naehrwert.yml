@@ -1,0 +1,20 @@
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_prod_naehrwert
+    - node.type.produkt_bier
+  module:
+    - text
+id: node.produkt_bier.field_prod_naehrwert
+field_name: field_prod_naehrwert
+entity_type: node
+bundle: produkt_bier
+label: 'Nährwerttabelle'
+description: 'Tabelle in HTML erstellen'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -9,7 +9,7 @@ field_name: field_prod_eigenschaft_4
 entity_type: node
 bundle: produkt_bier
 label: 'Eigenschaft 4'
-description: ''
+description: 'Farbe'
 required: false
 translatable: false
 default_value: {  }
