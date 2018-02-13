@@ -2,12 +2,12 @@ langcode: de
 status: true
 dependencies:
   config:
-    - field.storage.node.field_field_prod_backimg_3
+    - field.storage.node.field_prod_backimg_3
     - node.type.produkt_bier
   module:
     - image
-id: node.produkt_bier.field_field_prod_backimg_3
-field_name: field_field_prod_backimg_3
+id: node.produkt_bier.field_prod_backimg_3
+field_name: field_prod_backimg_3
 entity_type: node
 bundle: produkt_bier
 label: 'Hintergrundbild 3'

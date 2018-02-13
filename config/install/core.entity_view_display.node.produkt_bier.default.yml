@@ -60,7 +60,7 @@ content:
     third_party_settings: {  }
     type: string
     region: content
-  field_field_prod_backimg_3:
+  field_prod_backimg_3:
     weight: 131
     label: above
     settings:
