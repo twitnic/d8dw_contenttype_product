@@ -2,10 +2,10 @@ langcode: de
 status: true
 dependencies:
   config:
-    - field.storage.node.field_eigenschaft_4_beschreibung
+    - field.storage.node.field_prod_eigenschaft_4_beschr
     - node.type.produkt_bier
-id: node.produkt_bier.field_eigenschaft_4_beschreibung
-field_name: field_eigenschaft_4_beschreibung
+id: node.produkt_bier.field_prod_eigenschaft_4_beschr
+field_name: field_prod_eigenschaft_4_beschr
 entity_type: node
 bundle: produkt_bier
 label: 'Eigenschaft 4 Beschreibung'
