@@ -1,0 +1,295 @@
+uuid: 682daf9f-b059-4da4-bcba-046e0868c342
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.field.node.produkt_bier.field_eigenschaft_3
+    - field.field.node.produkt_bier.field_eigenschaft_4_beschreibung
+    - field.field.node.produkt_bier.field_field_prod_backimg_3
+    - field.field.node.produkt_bier.field_prod_backimg_1
+    - field.field.node.produkt_bier.field_prod_backimg_2
+    - field.field.node.produkt_bier.field_prod_beschreibung
+    - field.field.node.produkt_bier.field_prod_beschreibung_mobil
+    - field.field.node.produkt_bier.field_prod_bild_1
+    - field.field.node.produkt_bier.field_prod_bild_2
+    - field.field.node.produkt_bier.field_prod_bild_3
+    - field.field.node.produkt_bier.field_prod_bild_4
+    - field.field.node.produkt_bier.field_prod_eigenschaft_1
+    - field.field.node.produkt_bier.field_prod_eigenschaft_1_beschr
+    - field.field.node.produkt_bier.field_prod_eigenschaft_1_wertung
+    - field.field.node.produkt_bier.field_prod_eigenschaft_2
+    - field.field.node.produkt_bier.field_prod_eigenschaft_2_beschr
+    - field.field.node.produkt_bier.field_prod_eigenschaft_2_wertung
+    - field.field.node.produkt_bier.field_prod_eigenschaft_3_beschr
+    - field.field.node.produkt_bier.field_prod_eigenschaft_3_wertung
+    - field.field.node.produkt_bier.field_prod_eigenschaft_4
+    - field.field.node.produkt_bier.field_prod_eigenschaft_4_wertung
+    - field.field.node.produkt_bier.field_prod_laenderzuordnung
+    - field.field.node.produkt_bier.field_prod_merkmal_1
+    - field.field.node.produkt_bier.field_prod_merkmal_1_text
+    - field.field.node.produkt_bier.field_prod_merkmal_2
+    - field.field.node.produkt_bier.field_prod_merkmal_2_text
+    - field.field.node.produkt_bier.field_prod_merkmal_3
+    - field.field.node.produkt_bier.field_prod_merkmal_3_text
+    - field.field.node.produkt_bier.field_prod_merkmal_4
+    - field.field.node.produkt_bier.field_prod_merkmal_4_text
+    - field.field.node.produkt_bier.field_prod_zutaten
+    - node.type.produkt_bier
+  module:
+    - image
+    - options
+    - text
+    - user
+id: node.produkt_bier.default
+targetEntityType: node
+bundle: produkt_bier
+mode: default
+content:
+  field_eigenschaft_3:
+    weight: 117
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_eigenschaft_4_beschreibung:
+    weight: 122
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_field_prod_backimg_3:
+    weight: 131
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_prod_backimg_1:
+    weight: 129
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_prod_backimg_2:
+    weight: 130
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_prod_beschreibung:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_prod_beschreibung_mobil:
+    weight: 125
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_prod_bild_1:
+    weight: 124
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_prod_bild_2:
+    weight: 126
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_prod_bild_3:
+    weight: 127
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_prod_bild_4:
+    weight: 128
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_prod_eigenschaft_1:
+    weight: 111
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_prod_eigenschaft_1_beschr:
+    weight: 113
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_prod_eigenschaft_1_wertung:
+    weight: 112
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_prod_eigenschaft_2:
+    weight: 114
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_prod_eigenschaft_2_beschr:
+    weight: 116
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_prod_eigenschaft_2_wertung:
+    weight: 115
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_prod_eigenschaft_3_beschr:
+    weight: 119
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_prod_eigenschaft_3_wertung:
+    weight: 118
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_prod_eigenschaft_4:
+    weight: 120
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_prod_eigenschaft_4_wertung:
+    weight: 121
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_prod_laenderzuordnung:
+    weight: 123
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_prod_merkmal_1:
+    weight: 103
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_prod_merkmal_1_text:
+    weight: 104
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_prod_merkmal_2:
+    weight: 105
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_prod_merkmal_2_text:
+    weight: 106
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_prod_merkmal_3:
+    weight: 107
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_prod_merkmal_3_text:
+    weight: 108
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_prod_merkmal_4:
+    weight: 109
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_prod_merkmal_4_text:
+    weight: 110
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_prod_zutaten:
+    weight: 132
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true

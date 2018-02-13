@@ -1,0 +1,19 @@
+uuid: b971342e-508a-4ce4-a24f-791e07b9e3e7
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_prod_beschreibung_mobil
+    - node.type.produkt_bier
+id: node.produkt_bier.field_prod_beschreibung_mobil
+field_name: field_prod_beschreibung_mobil
+entity_type: node
+bundle: produkt_bier
+label: 'Beschreibung angeteasert'
+description: 'Kurzer Text in der mobilen Ansicht.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

@@ -1,0 +1,30 @@
+uuid: c1a94047-8458-46fc-92ac-109f658d2bc9
+langcode: de
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_prod_laenderzuordnung
+field_name: field_prod_laenderzuordnung
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: Deutschland
+      label: Deutschland
+    -
+      value: International
+      label: International
+    -
+      value: USA
+      label: USA
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

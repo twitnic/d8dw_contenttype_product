@@ -1,0 +1,22 @@
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_prod_laenderzuordnung
+    - node.type.produkt_bier
+  module:
+    - options
+id: node.produkt_bier.field_prod_laenderzuordnung
+field_name: field_prod_laenderzuordnung
+entity_type: node
+bundle: produkt_bier
+label: Länderzuordnung
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: Deutschland
+default_value_callback: ''
+settings: {  }
+field_type: list_string

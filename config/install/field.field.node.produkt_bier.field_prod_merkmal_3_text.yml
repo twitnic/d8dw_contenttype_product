@@ -1,0 +1,18 @@
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_prod_merkmal_3_text
+    - node.type.produkt_bier
+id: node.produkt_bier.field_prod_merkmal_3_text
+field_name: field_prod_merkmal_3_text
+entity_type: node
+bundle: produkt_bier
+label: 'Merkmal 3 Text'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

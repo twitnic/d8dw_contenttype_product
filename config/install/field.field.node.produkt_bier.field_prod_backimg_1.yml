@@ -1,0 +1,38 @@
+uuid: 36967505-4136-4400-8def-2fa969687b57
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_prod_backimg_1
+    - node.type.produkt_bier
+  module:
+    - image
+id: node.produkt_bier.field_prod_backimg_1
+field_name: field_prod_backimg_1
+entity_type: node
+bundle: produkt_bier
+label: 'Hintergrundbild 1'
+description: 'Hintergrundbild in der Desktop Kachel'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: 'backgroundimage1/[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

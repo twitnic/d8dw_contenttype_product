@@ -1,0 +1,38 @@
+uuid: 84dd8e63-a173-4d4d-938d-9237da0b0897
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_field_prod_backimg_3
+    - node.type.produkt_bier
+  module:
+    - image
+id: node.produkt_bier.field_field_prod_backimg_3
+field_name: field_field_prod_backimg_3
+entity_type: node
+bundle: produkt_bier
+label: 'Hintergrundbild 3'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: 'hintergrundbild3/[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

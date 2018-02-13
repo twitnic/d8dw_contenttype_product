@@ -1,0 +1,362 @@
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.field.node.produkt_bier.field_prod_backimg_3
+    - field.field.node.produkt_bier.field_prod_backimg_1
+    - field.field.node.produkt_bier.field_prod_backimg_2
+    - field.field.node.produkt_bier.field_prod_beschreibung
+    - field.field.node.produkt_bier.field_prod_beschreibung_mobil
+    - field.field.node.produkt_bier.field_prod_bild_1
+    - field.field.node.produkt_bier.field_prod_bild_2
+    - field.field.node.produkt_bier.field_prod_bild_3
+    - field.field.node.produkt_bier.field_prod_bild_4
+    - field.field.node.produkt_bier.field_prod_eigenschaft_1
+    - field.field.node.produkt_bier.field_prod_eigenschaft_1_beschr
+    - field.field.node.produkt_bier.field_prod_eigenschaft_1_wertung
+    - field.field.node.produkt_bier.field_prod_eigenschaft_2
+    - field.field.node.produkt_bier.field_prod_eigenschaft_2_beschr
+    - field.field.node.produkt_bier.field_prod_eigenschaft_2_wertung
+    - field.field.node.produkt_bier.field_prod_eigenschaft_3
+    - field.field.node.produkt_bier.field_prod_eigenschaft_3_beschr
+    - field.field.node.produkt_bier.field_prod_eigenschaft_3_wertung
+    - field.field.node.produkt_bier.field_prod_eigenschaft_4
+    - field.field.node.produkt_bier.field_prod_eigenschaft_4_beschr
+    - field.field.node.produkt_bier.field_prod_eigenschaft_4_wertung
+    - field.field.node.produkt_bier.field_prod_laenderzuordnung
+    - field.field.node.produkt_bier.field_prod_merkmal_1
+    - field.field.node.produkt_bier.field_prod_merkmal_1_text
+    - field.field.node.produkt_bier.field_prod_merkmal_2
+    - field.field.node.produkt_bier.field_prod_merkmal_2_text
+    - field.field.node.produkt_bier.field_prod_merkmal_3
+    - field.field.node.produkt_bier.field_prod_merkmal_3_text
+    - field.field.node.produkt_bier.field_prod_merkmal_4
+    - field.field.node.produkt_bier.field_prod_merkmal_4_text
+    - field.field.node.produkt_bier.field_prod_zutaten
+    - image.style.thumbnail
+    - node.type.produkt_bier
+  module:
+    - image
+    - path
+    - scheduler
+    - text
+id: node.produkt_bier.default
+targetEntityType: node
+bundle: produkt_bier
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+
+  field_prod_eigenschaft_4_beschr:
+    weight: 142
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+
+  field_prod_backimg_1:
+    weight: 149
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_prod_backimg_2:
+    weight: 150
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_prod_beschreibung:
+    weight: 122
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_prod_beschreibung_mobil:
+    weight: 145
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_prod_bild_1:
+    weight: 144
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_prod_bild_2:
+    weight: 146
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_prod_bild_3:
+    weight: 147
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_prod_bild_4:
+    weight: 148
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_prod_eigenschaft_1:
+    weight: 131
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_prod_eigenschaft_1_beschr:
+    weight: 133
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_prod_eigenschaft_1_wertung:
+    weight: 132
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_prod_eigenschaft_2:
+    weight: 134
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_prod_eigenschaft_2_beschr:
+    weight: 136
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_prod_eigenschaft_2_wertung:
+    weight: 135
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_prod_eigenschaft_3_beschr:
+    weight: 139
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_prod_eigenschaft_3_wertung:
+    weight: 138
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_prod_eigenschaft_3:
+    weight: 137
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_prod_backimg_3:
+    weight: 151
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_prod_eigenschaft_4:
+    weight: 140
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_prod_eigenschaft_4_wertung:
+    weight: 141
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_prod_laenderzuordnung:
+    weight: 143
+    settings: {  }
+    third_party_settings: {  }
+    type: options_buttons
+    region: content
+  field_prod_merkmal_1:
+    weight: 123
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_prod_merkmal_1_text:
+    weight: 124
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_prod_merkmal_2:
+    weight: 125
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_prod_merkmal_2_text:
+    weight: 126
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_prod_merkmal_3:
+    weight: 127
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_prod_merkmal_3_text:
+    weight: 128
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_prod_merkmal_4:
+    weight: 129
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_prod_merkmal_4_text:
+    weight: 130
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_prod_zutaten:
+    weight: 152
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 15
+    region: content
+    third_party_settings: {  }
+  publish_on:
+    type: datetime_timestamp_no_default
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 120
+    region: content
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 16
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 5
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    region: content
+    third_party_settings: {  }
+  unpublish_on:
+    type: datetime_timestamp_no_default
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  url_redirects:
+    weight: 50
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,19 @@
+uuid: 8764994d-7606-4a04-bd2f-05a9ff22ad17
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_eigenschaft_3
+    - node.type.produkt_bier
+id: node.produkt_bier.field_eigenschaft_3
+field_name: field_eigenschaft_3
+entity_type: node
+bundle: produkt_bier
+label: 'Eigenschaft 3'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

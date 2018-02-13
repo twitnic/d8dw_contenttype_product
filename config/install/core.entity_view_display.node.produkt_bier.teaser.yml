@@ -1,0 +1,21 @@
+uuid: d76abdcf-64f6-47d6-900a-4e77d7325a62
+langcode: de
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.produkt_bier.field_prod_beschreibung
+    - node.type.produkt_bier
+  module:
+    - user
+id: node.produkt_bier.teaser
+targetEntityType: node
+bundle: produkt_bier
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_prod_beschreibung: true
+  langcode: true

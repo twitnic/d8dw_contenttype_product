@@ -1,0 +1,23 @@
+uuid: 8153ff9b-4f77-44af-8073-45c14a07462d
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_prod_eigenschaft_2_wertung
+    - node.type.produkt_bier
+  module:
+    - options
+id: node.produkt_bier.field_prod_eigenschaft_2_wertung
+field_name: field_prod_eigenschaft_2_wertung
+entity_type: node
+bundle: produkt_bier
+label: 'Eigenschaft 2 Wertung'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

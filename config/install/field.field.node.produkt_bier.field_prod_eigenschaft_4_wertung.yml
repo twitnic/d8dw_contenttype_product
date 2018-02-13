@@ -1,0 +1,22 @@
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_prod_eigenschaft_4_wertung
+    - node.type.produkt_bier
+  module:
+    - options
+id: node.produkt_bier.field_prod_eigenschaft_4_wertung
+field_name: field_prod_eigenschaft_4_wertung
+entity_type: node
+bundle: produkt_bier
+label: 'Eigenschaft 4 Wertung'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

@@ -1,0 +1,10 @@
+langcode: de
+status: true
+dependencies:
+  config:
+    - node.type.produkt_bier
+id: node.produkt_bier
+target_entity_type_id: node
+target_bundle: produkt_bier
+default_langcode: site_default
+language_alterable: false
