@@ -1,10 +1,10 @@
 name: d8dw_contenttype_product
 type: module
-description: 'Adds Custom "Beer" content type.'
+description: 'Contentyp für Produkte (Biere)'
 core: 8.x
 dependencies:
   - node
-version: 8.x-1.0.0'
+version: 8.x-1.0.1'
 core: 8.x
 project: d8dw_contenttype_product
 datestamp: 1507604048
