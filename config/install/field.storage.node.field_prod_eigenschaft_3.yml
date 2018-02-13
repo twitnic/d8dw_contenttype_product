@@ -1,11 +1,10 @@
-uuid: 40024873-f35a-4c5f-b254-4ccf7bf4fa11
 langcode: de
 status: true
 dependencies:
   module:
     - node
-id: node.field_eigenschaft_3
-field_name: field_eigenschaft_3
+id: node.field_prod_eigenschaft_3
+field_name: field_prod_eigenschaft_3
 entity_type: node
 type: string
 settings:

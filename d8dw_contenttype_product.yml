@@ -4,7 +4,7 @@ description: 'Adds Custom "Beer" content type.'
 core: 8.x
 dependencies:
   - node
-version: 8.x-0.1.0'
+version: 8.x-0.1.1'
 core: 8.x
 project: d8dw_contenttype_product
 datestamp: 1507604048

@@ -1,11 +1,9 @@
-uuid: 682daf9f-b059-4da4-bcba-046e0868c342
 langcode: de
 status: true
 dependencies:
   config:
-    - field.field.node.produkt_bier.field_eigenschaft_3
-    - field.field.node.produkt_bier.field_eigenschaft_4_beschreibung
-    - field.field.node.produkt_bier.field_field_prod_backimg_3
+    - field.field.node.produkt_bier.field_prod_eigenschaft_3
+    - field.field.node.produkt_bier.field_prod_backimg_3
     - field.field.node.produkt_bier.field_prod_backimg_1
     - field.field.node.produkt_bier.field_prod_backimg_2
     - field.field.node.produkt_bier.field_prod_beschreibung
@@ -24,6 +22,7 @@ dependencies:
     - field.field.node.produkt_bier.field_prod_eigenschaft_3_wertung
     - field.field.node.produkt_bier.field_prod_eigenschaft_4
     - field.field.node.produkt_bier.field_prod_eigenschaft_4_wertung
+    - field.field.node.produkt_bier.field_prod_eigenschaft_4_beschr
     - field.field.node.produkt_bier.field_prod_laenderzuordnung
     - field.field.node.produkt_bier.field_prod_merkmal_1
     - field.field.node.produkt_bier.field_prod_merkmal_1_text
@@ -45,7 +44,7 @@ targetEntityType: node
 bundle: produkt_bier
 mode: default
 content:
-  field_eigenschaft_3:
+  field_prod_eigenschaft_3:
     weight: 117
     label: above
     settings:

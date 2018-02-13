@@ -3,11 +3,13 @@ status: true
 dependencies:
   module:
     - node
-id: node.field_prod_merkmal_3_text
-field_name: field_prod_merkmal_3_text
+id: node.field_prod_eigenschaft_4_beschr
+field_name: field_prod_eigenschaft_4_beschr
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 255
+  is_ascii: false
   case_sensitive: false
 module: core
 locked: false
