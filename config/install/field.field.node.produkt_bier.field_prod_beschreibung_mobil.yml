@@ -11,7 +11,7 @@ bundle: produkt_bier
 label: 'Beschreibung angeteasert'
 description: 'Kurzer Text in der mobilen Ansicht.'
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }

@@ -11,7 +11,7 @@ bundle: produkt_bier
 label: 'Eigenschaft 5 Beschreibung'
 description: '20 kcal / 100ml'
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }

@@ -13,7 +13,7 @@ bundle: produkt_bier
 label: 'Hintergrundbild 3'
 description: 'Mobile: hinter der vollen Beschreibung (z.B. Zitrone)'
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

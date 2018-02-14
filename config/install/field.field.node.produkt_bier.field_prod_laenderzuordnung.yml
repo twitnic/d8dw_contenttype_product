@@ -13,7 +13,7 @@ bundle: produkt_bier
 label: Länderzuordnung
 description: 'Füer Bierkarussell nötig'
 required: false
-translatable: false
+translatable: true
 default_value:
   -
     value: Deutschland

@@ -11,7 +11,7 @@ bundle: produkt_bier
 label: 'Eigenschaft 2'
 description: Aromatik
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }

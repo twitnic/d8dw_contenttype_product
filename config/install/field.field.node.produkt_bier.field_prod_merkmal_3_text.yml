@@ -11,7 +11,7 @@ bundle: produkt_bier
 label: 'Merkmal 3 Text'
 description: 'Zutaten als Text'
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }

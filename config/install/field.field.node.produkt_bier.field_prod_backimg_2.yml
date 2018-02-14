@@ -13,7 +13,7 @@ bundle: produkt_bier
 label: 'Hintergrundbild 2'
 description: 'Hintergrundbild in der Kachel mobil'
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

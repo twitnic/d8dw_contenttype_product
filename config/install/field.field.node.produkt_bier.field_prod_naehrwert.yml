@@ -13,7 +13,7 @@ bundle: produkt_bier
 label: 'Nährwerttabelle'
 description: 'Tabelle in HTML erstellen'
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }
